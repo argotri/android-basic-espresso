@@ -16,4 +16,7 @@ pipeline {
     }
 
   }
+  environment {
+    ANDROID_HOME = '/var/lib/android-sdk-linux'
+  }
 }
